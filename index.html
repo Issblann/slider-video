@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider video</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="bannerVideo" id="slideShow">
+        <video
+          src="./img/video1.mp4"
+          autoplay
+          muted
+          loop
+          class="active"
+        ></video>
+        <video src="./img/video2.mp4" autoplay muted loop></video>
+        <video src="./img/video3.mp4" autoplay muted loop></video>
+        <video src="./img/video4.mp4" autoplay muted loop></video>
+      </div>
+      <div class="container">
+        <header id="navbar">
+          <a href="#" class="logo">World</a>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span class="menuIcon"></span>
+        </header>
+        <div class="content">
+          <div class="bannerText" id="slideShowText">
+            <div class="active">
+              <h2>Tokyo</h2>
+              <p>
+                Tokyo is the capital of Japan, with a blend of traditional and
+                modern culture. Iconic attractions include Tokyo Tower, the
+                Imperial Palace, and vibrant neighborhoods. The city offers
+                world-class cuisine, shopping, and museums showcasing ancient
+                artifacts and contemporary art. Tokyo provides an exciting and
+                diverse travel experience for visitors.
+              </p>
+            </div>
+            <div>
+              <h2>Paris</h2>
+              <p>
+                Paris is the capital of France, known for its romantic ambiance
+                and historic landmarks. Iconic attractions include the Eiffel
+                Tower, the Louvre Museum, and Notre-Dame Cathedral. The city is
+                famous for its fashion, cuisine, and artistic heritage, with
+                plenty of parks and gardens to explore. Paris offers a charming
+                and sophisticated travel experience for visitors.
+              </p>
+            </div>
+            <div>
+              <h2>Egypt</h2>
+              <p>
+                Egypt is a country in North Africa, known for its ancient
+                history and iconic landmarks. Iconic attractions include the
+                Pyramids of Giza, the Sphinx, and the temples of Luxor and Abu
+                Simbel. The country also offers world-class scuba diving and
+                snorkeling in the Red Sea, as well as a vibrant culture and
+                delicious cuisine. Egypt provides a unique and unforgettable
+                travel experience for visitors.
+              </p>
+            </div>
+            <div>
+              <h2>Maldives</h2>
+              <p>
+                The Maldives is an island nation in the Indian Ocean, known for
+                its pristine beaches and turquoise waters. Iconic attractions
+                include coral reefs, palm-fringed beaches, and luxury resorts
+                with overwater villas. The country offers world-class
+                snorkeling, scuba diving, and other water sports, as well as a
+                relaxing and peaceful atmosphere. The Maldives provides an
+                idyllic and romantic travel experience for visitors.
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="controls">
+          <li class="prev-button">
+            <img src="./img/left.png" />
+          </li>
+          <li class="next-button">
+            <img src="./img/right.png" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
